@@ -1,7 +1,7 @@
 <?php 
     // $_GET, $_POST = special variables used to collect data from an HTML
     
-    // form data is sent to the file in the action attribute of <form>
+    // form data is sent to the file in the action attribute of 
 
     //Differences 
     // *********$_GET **********

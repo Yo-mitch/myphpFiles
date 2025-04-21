@@ -10,10 +10,6 @@
     // Decrement --
 
     // Operator Procedence
-    // ()
-    // **
-    // * / %
-    // + -
-
-
+    // ()  **   *   /  %   +   - 
+  
 ?>

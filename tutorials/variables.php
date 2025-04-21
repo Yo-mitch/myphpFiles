@@ -17,8 +17,7 @@
     $quantity =  6;
     $food = "pizza"; 
     $total = $quantity * $price;
-    echo "{$name}, you ordered {$quantity} quantity of food. The price of each is \${$price}<br>";
+    echo "{$name}, you ordered {$quantity} quantity of food. The price of each is \${$price}<br> <br>";
     echo "Total price:  \${$total}";
     
-
 ?>

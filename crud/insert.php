@@ -11,16 +11,13 @@ NB: the GET method was used in this program just for practicing purposes.
 
     //getting our data and storing them
     $username = $_GET["username"];
-    $password = hash('md5', $_GET["password"]); //hashing the password
+    //hashing the password
+    $password = hash('md5', $_GET["password"]); 
 
     //user authentication
     if (isset($_GET["submit"])) {
         if (empty($username) || empty($password)){
             echo "fill in the blanks";
-        }elseif ($password <= 6) {
-            //making sure password is more than 6
-            echo "<br> <br> <br> sign up unsuccessful! <br>
-                passsword should be more than 6 characters!";
         }
         else{
             //code snippet to push data into the database

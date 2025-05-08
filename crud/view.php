@@ -8,6 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h3> sign up successful! </h3>
+    <table>
+        <thead>
+            <tr>
+                <th> User ID</th>
+                <th> Username </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> test 1 </td>
+                <td> test 2 </td>
+            </tr>
+        </tbody>
+    </table>    
 </body>
 </html>
+

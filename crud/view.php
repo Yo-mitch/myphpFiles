@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1> Sign up successful </h1>
     <table>
         <thead>
             <tr>
